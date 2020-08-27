@@ -1,0 +1,22 @@
+<template>
+<div class="m-radio-group">
+    <RadioButton 
+    id="radioone" 
+    name="options" 
+    value="hi" 
+    text="Hi"
+    />
+    <RadioButton 
+    id="radiotwo" 
+    name="options" 
+    value="hello" 
+    text="Hello"
+    />
+    <RadioButton 
+    id="radiothree" 
+    name="options" 
+    value="bye" 
+    text="bye"
+    />
+    </div>
+</template>
