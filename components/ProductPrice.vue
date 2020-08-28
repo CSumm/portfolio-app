@@ -4,7 +4,7 @@
 
 <style lang="scss">
 .a-product-price {
-    font-size: 28px;
+    font-size: 24px;
 }
 </style>
 

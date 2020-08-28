@@ -1,5 +1,5 @@
 <template>
-    <p class="a-product-name">{{text}}</p>
+    <p class="a-product-name" >{{text}}</p>
 </template>
 
 <style lang="scss">

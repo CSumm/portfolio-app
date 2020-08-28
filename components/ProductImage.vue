@@ -1,5 +1,5 @@
 <template>
-    <img class="a-product-image" :src="imgUrl"/>
+    <img class="a-product-image" :src="src"/>
 </template>
 
 <style lang="scss" scoped>
@@ -14,7 +14,7 @@
 <script>
 export default {
     props: {
-        imgUrl: String
+        src: String
     }
 }
 </script>

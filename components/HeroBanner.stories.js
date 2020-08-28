@@ -3,3 +3,4 @@ export default {
 }
 
 export const HeroBanner = () => '<HeroBanner/>';
+export const HeroBannerLight = () => '<HeroBanner class="m-hero-banner--light"/>';

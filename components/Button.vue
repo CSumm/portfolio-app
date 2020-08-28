@@ -1,5 +1,5 @@
 <template>
-    <a class="a-btn" href="">{{text}}</a>
+    <a class="a-btn" href="">{{btnText}}</a>
 </template>
 
 
@@ -53,7 +53,7 @@
 <script>
 export default {
     props: {
-        text: String
+        btnText: String,
     }
 }
 </script>
