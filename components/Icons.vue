@@ -11,6 +11,7 @@
     <font-awesome-icon class="fa-2x" :icon="['fas', 'caret-right']"/>
         <font-awesome-icon class="fa-2x disabled" :icon="['fas', 'caret-right']"/>
     <font-awesome-icon class="fa-2x search-glass" :icon="['fas', 'search']"/>
+    <font-awesome-icon class="fa-2x search-glass" :icon="['fas', 'plus']"/>
     <font-awesome-icon class="fa-2x" :icon="['fas', 'sort-amount-down-alt']"/>
      <font-awesome-icon class="fa-2x yellow-star" :icon="['fas', 'star-half']"/>
       <font-awesome-icon class="fa-2x yellow-star" :icon="['fas', 'star']"/>

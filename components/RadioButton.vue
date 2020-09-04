@@ -2,7 +2,7 @@
 <div class="a-radio-btn">
    <label>
        <input :id="id" type="radio" :name="name" ref="radioBtn" :value="value"/>
-       <span @keyup.enter="checkedRadio"  role="radio" tabindex="0" aria-checked="false" class="a-radio-btn__design"/>
+       <span @keyup.enter="checkedRadio" role="radio" tabindex="0" aria-checked="false" class="a-radio-btn__design"/>
        <label :for="id" class="a-radio-btn__label">{{text}}</label>
    </label>
    </div>
@@ -33,7 +33,7 @@
 
 &__design {
     position: absolute;
-    left: 10px;
+    left: 20px;
     width: 20px;
     height: 20px;
     border: 2px solid rgba($text-color--dark,0.7);
@@ -83,9 +83,7 @@ export default {
         checkedRadio: function(event) {
            if(event.key == "Enter"){
                 this.$refs.radioBtn.checked = true;
-                console.log(this.$refs.radioBtn.value);
            }
-           
     }
         }
     }
